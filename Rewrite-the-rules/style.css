@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: #011212;
+    --ball-bg-color: #ff8800;
+    --ball-width-height: 100px;
+    --padding: 25px;
+  }
+body {
+    /* background-color: #011212; */
+    background-color: var(--main-bg-color);
+}
+
+.ball {
+    width: var(--ball-width-height);
+    height: var(--ball-width-height);
+    background-color: var(--ball-bg-color);
+    border-radius: 50px;
+
+}
+.first {
+    position: absolute;
+    padding-left: var(--padding);
+    padding-top: var(--padding);
+}
