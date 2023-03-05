@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 200px;
+    height: 100%;
+    background-color: green;
+}
+svg {
+    padding: 30px;
+    width: 120px;
+    height: 120px;
+    padding-bottom: 25px;
+}
+.side {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: #2b2b2b;
+    font-size: 34px;
+    padding: 10px 0;
+}
+a:hover {
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+div.down {
+    /* display: block; */
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* text-align: center; */
+}
+div span svg {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+}
+div.down {
+    font-size: larger;
+    font-weight: bold;
+    margin: -45px;
+    z-index: -2;
+}
+.space {
+    padding: 34px;
+}
