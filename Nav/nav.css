@@ -1,0 +1,49 @@
+.layout {
+    margin: 0 auto;
+    width: 768px;
+    height: 60px;  
+    background-color: rgb(15, 41, 6);
+    border-radius: 5px;
+}
+div.navbar {
+    /* display: flex; */
+    float: left;
+    margin: 20px 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(151, 149, 149);
+}
+div.form {
+    /* display: flex; */
+    float: right;
+    margin: 20px 15px;
+}
+div.hamburger {
+    display: none;
+}
+span {
+    color: #fff;
+}
+span.Navbar {
+    font-size: large;
+    /* padding-bottom: 20px; */
+}
+.button {
+    border-color: transparent;
+    background-color:  rgb(15, 41, 6);
+}
+.dropdown select {
+    background-color: transparent;
+    border-color: transparent;
+}
+select, button {
+    color: grey;
+}
+.search {
+    color: green;
+    border: 1px solid green;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 2px 4px;
+}
