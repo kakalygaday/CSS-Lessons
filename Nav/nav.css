@@ -47,3 +47,8 @@ select, button {
     background-color: transparent;
     padding: 2px 4px;
 }
+.search:hover {
+    background-color: green;
+    color: #fff;
+}
+
