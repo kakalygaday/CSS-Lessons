@@ -1,0 +1,40 @@
+.yellow, .red, .blue {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+}
+#yellow, #red, #blue {
+    display: flex;
+    flex-flow: row wrap;
+    width: 14em;   
+    display: inline;
+}
+.blue {
+    height: 23em;
+}
+#blue {
+    display: flex;
+    align-items: stretch;
+    height: 23em;
+}
+.orange {
+   display: flex;
+   width: 40em;
+   height: 3em;
+   
+}
+#orange {
+    margin-top: -2em;
+    width: 43em;
+    height: 3em;
+ }
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+  
+    
+}
+li {
+    width: 3em;
+}
