@@ -35,6 +35,6 @@ body {
   li {
     background-color: white;
     padding: 1em;
-    display: block;
+    display: grid ;
     margin: 1em;
   }
